@@ -1,7 +1,7 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(157, 132, 209);
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     align-items: center;
     justify-content: center;
@@ -18,9 +18,32 @@ h2{
     margin: 0px;
     color:#fff;
     width: 600px;
+    border-color: black;
+    border-style:solid
 
 }
 
 p{
     margin: 0;
+}
+
+input[type=checkbox],input[type=radio] {
+    zoom: 1.5;
+}
+
+input[type=submit] {
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: 0px;
+}
+
+input[type=text],input[type=email],select,input[type=date]{
+    border: 20px;
+    border-color: black;
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(183, 135, 227);
 }
