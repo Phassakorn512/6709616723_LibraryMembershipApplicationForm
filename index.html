@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+    <form>
+        <h2>Personal Information for Libary Membership</h2>
+        <p>ชื่อ-สกุล:
+        <input type="text" id="nameth" name="nameth" required><br><br>
+        </p>
+        <p>Name:
+            <input type="text" id="nameeng" name="nameeng" required><br><br>
+        </p>
+        
+      
+        <label for="gender"> Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+  
+
+        <p>Student ID:
+            <input type="text" id="studentid" name="studentid" required><br><br>
+        </p>
+        
+
+        <label for="department">คณะที่ศึกษา</label>
+        <select name="department">
+        <option value="...">...</option>
+        <option value="computerscience">Computer Science</option>
+        <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="date">Your Birth Date:</label>
+        <input type="date" id="date" name="date" required> <br><br>
+
+        <label for="booktype">ประเภทหนังสือที่ชอบ</label><br>
+
+        <input type="checkbox"  name="booktype1" value="Adventure" >
+        <label for="booktype1">Adventure</label>
+
+        <input type="checkbox"  name="booktype2" value="Classic" >
+        <label for="booktype2">Classic</label><br>
+
+        <input type="checkbox"  name="booktype3" value="Crime" >
+        <label for="booktype3">Crime</label>
+
+        <input type="checkbox"  name="booktype4" value="Fairy tales" >
+        <label for="booktype4">Fairy tales</label><br>
+
+        <input type="checkbox"  name="booktype5" value="Fantasy" >
+        <label for="booktype5">Fantasy</label>
+
+        <input type="checkbox"  name="booktype6" value="Historical fiction" >
+        <label for="booktype6">Historical fiction</label><br>
+
+        <input type="checkbox"  name="booktype7" value="Horror" >
+        <label for="booktype7">Horror</label>
+                
+        <input type="checkbox"  name="booktype8" value="Romance" >
+        <label for="booktype8">Romance</label>
+        
+        <input type="checkbox"  name="booktype9" value="Science fiction" >
+        <label for="booktype9">Science fiction</label><br>
+        
+        <input type="checkbox"  name="booktype10" value="War" >
+        <label for="booktype10">War</label>
+        
+        <input type="checkbox"  name="booktype11" value="Self-help" >
+        <label for="booktype11">Self-help</label>
+
+        
+
+        <br><br>
+
+        <label for="newsletter">ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมล</label><br>
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes" checked><br>
+    
+        <input type="submit" value="Submit">
+        </form>
+        
+    </div>
+</body>
+</html>
